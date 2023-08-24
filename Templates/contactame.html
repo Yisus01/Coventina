@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../CSS3/estilos.css">
+    <link rel="stylesheet" href="../CSS3/normalize.css">
+    <link rel="stylesheet" href="../CSS3/spiner.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+
+    <header>
+
+        <div class="headerglobal">
+
+            <div class="headerglobal__logo">
+                <img src="../MEDIA/coventinalogo.jpg" alt="" srcset="">
+            </div>
+
+            <div class="headerglobal__enlaces">
+                <a href="index.html">Inicio</a>
+                <a href="productos.html">Productos</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="contactame.html">Contactame</a>
+                <a href=""><i class="fa-solid fa-user"></i></a>
+            </div>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <div class="conctatamediv">
+            <h2>Ponte en contacto con nosotros</h2>
+        </div>
+
+    
+        <div class="contenedor">
+            <form id="formulario">
+    
+                <div class="contenedor-email">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                </div>
+    
+                <div class="contenedor-asunto">
+                    <label for="asunto">Asunto</label>
+                    <input type="text" id="asunto" name="asunto">
+                </div>
+    
+                <div class="contenedor-mensaje">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea type="text" id="mensaje" name="mensaje"></textarea>
+                </div>
+                
+    
+                <div id="botones" class="botonesform">
+                    
+                    <div class="boton1">
+                        <button type="submit" class="opacidad" disabled >Enviar</button>
+                    </div>
+    
+                    <div class="boton2">
+                        <button type="reset">Resetear</button>
+                    </div>
+        
+                </div>  
+            </form>
+            
+            <div id="spiner" class="hidden">
+                <div class="dot-spinner">
+                    <div class="dot-spinner__dot"></div>
+                    <div class="dot-spinner__dot"></div>
+                    <div class="dot-spinner__dot"></div>
+                    <div class="dot-spinner__dot"></div>
+                    <div class="dot-spinner__dot"></div>
+                    <div class="dot-spinner__dot"></div>
+                    <div class="dot-spinner__dot"></div>
+                    <div class="dot-spinner__dot"></div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="contactameform">
+
+            <form class="row g-3">
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">Asunto</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress" class="form-label">Mensaje</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="Hola! quisiera comprar...">
+                </div>
+                <div class="col-md-4">
+                  <label for="inputState" class="form-label">Comuna</label>
+                  <select id="inputState" class="form-select">
+                    <option selected>Elige</option>
+                    <option>Maipu</option>
+                    <option>Pudahuel</option>
+                    <option>Laguna Sur</option>
+                    <option>Estacion Central</option>
+                    <option>Provicencia</option>
+                    <option>Lo prado</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+              </form>
+        </div> -->
+    </main>
+
+
+
+
+
+
+    <footer>
+        <div class="footerdiv">
+            <p>Desde 2023. Coventina © Todos los Derechos Reservados.</p>
+        </div>
+    </footer>
+    
+
+
+    <script src="../Javascript/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
